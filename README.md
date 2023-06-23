@@ -2,10 +2,11 @@
 5 Projects in Data Analysis With Python Course on Freecodecamp
 This repository contains projects completed as part of the FreeCodeCamp Data Analysis with Python curriculum. Each project focuses on applying data analysis techniques using Python and various libraries. Below, you will find a brief description of each project and instructions for running them.
 ## Project 1: Mean-Variance-Standard Deviation Calculator
-- **Description**:
+- **Description**:\
 Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
 ## Project 2: Demographic Data Analyzer
+- **Description**:\ 
 You must use Pandas to answer the following questions:
 * How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 * What is the average age of men?
@@ -19,7 +20,7 @@ You must use Pandas to answer the following questions:
 ## Project 3: Medical Data Visualizer
 ## Project 4: Page View Time Series Visualizer
 ## Project 5: Sea Level Predictor
-- **Description**:
+- **Description**:\
 You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 Use the data to complete the following tasks:
 Use Pandas to import the data from `epa-sea-level.csv`.
