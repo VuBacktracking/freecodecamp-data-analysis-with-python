@@ -7,7 +7,7 @@ Create a function named calculate() in mean_var_std.py that uses Numpy to output
 The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
 ## Project 2: Demographic Data Analyzer
 - **Description**:\ 
-You must use Pandas to answer the following questions:
+You must use Pandas to answer the following questions:\
 * How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 * What is the average age of men?
 * What is the percentage of people who have a Bachelor's degree?
