@@ -6,8 +6,8 @@ This repository contains projects completed as part of the FreeCodeCamp Data Ana
 Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 The input of the function should be a list containing 9 digits. The function should convert the list into a 3 x 3 Numpy array, and then return a dictionary containing the mean, variance, standard deviation, max, min, and sum along both axes and for the flattened matrix.
 ## Project 2: Demographic Data Analyzer
-- You must use Pandas to answer the following questions:
-How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
+You must use Pandas to answer the following questions:
+* How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 * What is the average age of men?
 * What is the percentage of people who have a Bachelor's degree?
 * What percentage of people with advanced education (Bachelors, Masters, or Doctorate) make more than 50K?
