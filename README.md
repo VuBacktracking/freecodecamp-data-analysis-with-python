@@ -23,14 +23,13 @@ In this project, you will visualize and make calculations from medical examinati
 Create a chart similar to `examples/Figure_1.png`, where we show the counts of good and bad outcomes for the `cholesterol`, `gluc`, `alco`, `active`, and `smoke` variables for patients with `cardio`=1 and `cardio`=0 in different panels.\
 Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's `heatmap()`. Mask the upper triangle. The chart should look like `examples/Figure_2.png`.
 ## Project 4: Page View Time Series Visualizer
-**Description**:\
+**Description**:
 - Create a `draw_line_plot` function that uses Matplotlib to draw a line chart similar to `examples/Figure_1.png`. The title should be `Daily freeCodeCamp Forum Page Views 5/2016-12/2019`. The label on the x-axis should be `Date` and the label on the y-axis should be `Page Views`.
 - Create a `draw_bar_plot` function that draws a bar chart similar to `examples/Figure_2.png`. It should show the average daily page views for each month grouped by year. The legend should show month labels and have a title of `Months`. On the chart, the label on the x-axis should be `Years` and the label on the y-axis should be `Average Page Views`.
 - Create a `draw_box_plot` function that uses Seaborn to draw two adjacent box plots similar to `examples/Figure_3.png`. These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be `Year-wise Box Plot (Trend)` and the title of the second chart should be `Month-wise Box Plot (Seasonality)`. Make sure the month labels on the bottom start at `Jan` and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
 ## Project 5: Sea Level Predictor
-You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 **Description**:\
-
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
 Use the data to complete the following tasks:
 Use Pandas to import the data from `epa-sea-level.csv`.
 Use `matplotlib` to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axis.
