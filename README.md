@@ -28,6 +28,17 @@ Create a correlation matrix using the dataset. Plot the correlation matrix using
 - Create a `draw_bar_plot` function that draws a bar chart similar to `examples/Figure_2.png`. It should show the average daily page views for each month grouped by year. The legend should show month labels and have a title of `Months`. On the chart, the label on the x-axis should be `Years` and the label on the y-axis should be `Average Page Views`.
 - Create a `draw_box_plot` function that uses Seaborn to draw two adjacent box plots similar to `examples/Figure_3.png`. These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be `Year-wise Box Plot (Trend)` and the title of the second chart should be `Month-wise Box Plot (Seasonality)`. Make sure the month labels on the bottom start at `Jan` and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
 ## Project 5: Sea Level Predictor
+**Description**:\
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
+Use the data to complete the following tasks:
+Use Pandas to import the data from `epa-sea-level.csv`.
+Use `matplotlib` to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axis.
+Use the `linregress` function from `scipy.stats` to get the slope and y-intercept of the line of best fit. Plot the line of best fit over the top of the scatter plot. Make the line go through the year 2050 to predict the sea level rise in 2050.
+Plot a new line of best fit just using the data from year 2000 through the most recent year in the dataset. Make the line also go through the year 2050 to predict the sea level rise in 2050 if the rate of rise continues as it has since the year 2000.
+The x label should be `Year`, the y label should be `Sea Level (inches)`, and the title should be `Rise in Sea Level`.
+Unit tests are written for you under `test_module.py`.
+The boilerplate also includes commands to save and return the image.
+
 ## Usage
 Follow the instructions provided in each project's respective Jupyter Notebook file to run the code and perform the data analysis tasks.
 
