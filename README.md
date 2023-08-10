@@ -1,5 +1,5 @@
 # Freecodecamp Data Analysis With Python
-5 Projects in Data Analysis With Python Course on freecodecamp
+5 Projects in Data Analysis With Python on freecodecamp
 This repository contains projects completed as part of the FreeCodeCamp Data Analysis with Python curriculum. Each project focuses on applying data analysis techniques using Python and various libraries. Below, you will find a brief description of each project and instructions for running them.
 ## Project 1: Mean-Variance-Standard Deviation Calculator
 **Description**:\
